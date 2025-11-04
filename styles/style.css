@@ -3,7 +3,36 @@
     padding: 0;
 }
 
-
+/* shared */
+.heading{
+     color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19pxpx;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.para{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* shared close */
 
 /* header */
 header{
@@ -107,7 +136,7 @@ header{
 /* Pillars of "Bangladesh 2.0" */
 .pillars{
     width: 1024px;
-    height: 448px;
+    /* height: 448px; */
     padding: 0px 80px;
     /* gap: 25px; */
 }
@@ -157,3 +186,90 @@ background: rgba(255, 255, 255, .8);
 
 
 /* Pillars of "Bangladesh 2.0" close */
+/* future vision */
+
+.f-vision{
+    padding: 64px 128px 0px 128px;
+}
+.visions{
+    display: flex;
+    gap: 19px;
+}
+.vision-1{
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 24px;
+}
+.vision-2{
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(198, 228, 214, 1);
+padding: 24px;
+}
+.vision-3{
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(247, 235, 207, 1);
+padding: 24px;
+}
+.vision-btn-1{
+    /* Frame 2 */
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 8px 16px;
+border: none;
+border-radius: 8px;
+background: rgba(84, 144, 245, 1);
+margin-top: 24px;
+}
+.vision-btn-2{
+    /* Frame 2 */
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 8px 16px;
+border: none;
+border-radius: 8px;
+background: rgba(9, 161, 92, 1);
+margin-top: 24px;
+}
+.vision-btn-3{
+    /* Frame 2 */
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 8px 16px;
+border: none;
+border-radius: 8px;
+background: rgba(255, 194, 57, 1);
+margin-top: 24px;
+}
+.vision-img ,.vision-title ,.vision-subheading{
+    margin-bottom: 19px;
+}
+
+
+
+
+
+
+
+
+/* future vision  close*/
