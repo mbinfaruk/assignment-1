@@ -35,3 +35,125 @@ header{
     padding: 12px 24px;
 }
 /* header close */
+/* banner */
+.banner-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 16px 128px 64px 128px; */
+    /* gap: 51px; */
+    width: 1024px;
+    height: 448px;
+    padding: 0px 80px 64px 80px;
+}
+.banner{
+    display: flex;
+    /* margin: 64px 80px 64px 48px; */
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    /* width: 1024px; */
+    align-items: center;
+    padding: 64px 80px;
+    /* gap: 51px; */
+}
+.banner-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.banner-title{
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 19px;
+}
+.banner-btn{
+    /* Frame 2 */
+    /* width: 270px;
+    height: 56px;
+    Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 38;
+    padding: 13px 26px;
+    border: none;
+
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-img{
+    width: 379px;
+    height: 320px;
+}
+/* banner close */
+/* Pillars of "Bangladesh 2.0" */
+.pillars{
+    width: 1024px;
+    height: 448px;
+    padding: 0px 80px;
+    /* gap: 25px; */
+}
+.pillars-title{
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.pillars-cont{
+    display: flex;
+    gap: 19px;
+}
+.pillar{
+    /* display: flex; */
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, .8);
+    /* border: 1px solid black;
+    border-radius: 12px; */
+    padding: 19px;
+}
+.pillar-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19pxpx;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.pillar-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+/* Pillars of "Bangladesh 2.0" close */
