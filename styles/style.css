@@ -1,6 +1,37 @@
-.mohammad{
-    color: green;
-    font-size: 30px;
-    font-weight: 800;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+
+
+/* header */
+header{
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 128px;
+}
+.header-heading{
+    color: rgba(14, 14, 14, 1);
+
+    font-family: Fira Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.header-sign{
+    color: rgba(0, 106, 80, 1);
+
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 12px 24px;
+}
+/* header close */
