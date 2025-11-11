@@ -264,12 +264,22 @@ margin-top: 24px;
 .vision-img ,.vision-title ,.vision-subheading{
     margin-bottom: 19px;
 }
-
-
-
-
-
-
-
-
 /* future vision  close*/
+/* qoute */
+.qoute{
+    /* padding: 64px 128px 0px 128px; */
+    /* background-color: blue; */
+}
+.qouta{
+    margin: 64px 128px 0px 128px;
+    /* background-color: blue; */
+    padding: 38px 19px;
+
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+/* background: rgba(255, 255, 255, 1); */
+}
+/* qoute close */
